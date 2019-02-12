@@ -201,15 +201,16 @@ a{
 }
 #banner a{
     float: left;
+    overflow: hidden;
 }
 #banner a:first-child:hover img:first-child{
-    transform: scale(1.2, 1.2);
+    transform: scale(1.1, 1.1);
 }
 #banner a img:first-child{
     transform: 2s;
 }
 #banner a:last-child:hover img:last-child{
-    transform: scale(1.2 , 1.2);
+    transform: scale(1.1 , 1.1);
 }
 #banner a img:last-child{
     transform: 2s;
